@@ -1,0 +1,249 @@
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+#nav-section{
+    display: flex;  
+    justify-content: space-between; 
+}
+#nav-section #menu{ 
+   visibility: hidden;
+}
+
+#homebar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;   
+}
+#bedimages img{
+   width: 100%;
+   height: 50vh;
+   
+}
+#bedimages{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+.one{
+    background-color: aqua;
+    width: 3rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    
+}
+/* #two{
+    background-color: aqua;
+    width: 20%;
+    height: 4vh;
+    
+    text-align: center;
+}
+#three{
+    background-color: aqua;
+    width: 20%;
+    height: 4vh;
+   
+    text-align: center;
+}
+#four{
+    background-color: aqua;
+    width: 3rem;
+    height: 2rem;
+    text-align: center;
+} */
+#colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 10rem;
+    gap: 0.5rem;
+    justify-content: center;
+    
+}
+#btn{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+    background-color: #88f77e;
+    border: none;
+    color: white;
+}
+.Hennepin{
+    text-align: center;
+ 
+}
+#blue{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#coachimages img{
+    width: 85%;
+    height: 25vh;
+}
+#coachimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+   
+}
+#request{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+#btn2{
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: #88f77e;
+    border: none;
+    color: white;
+}
+.middleimages img{
+    margin-top: 1rem;
+    width: 20rem;
+}
+.middleimages1 img{
+    margin-top: 1rem;
+    width: 30rem;
+    height: 50vh;
+}
+
+.middle{
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;  
+}
+
+.middle2{
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.middle3{
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-left: 15rem;
+}
+
+#ppx{
+    display: flex;
+}
+#empty{
+    width: 100%;
+}
+#section1{
+    background-color: #defaf8;
+    
+}
+#innerdiv{
+    padding: 20px;
+}
+#youtube{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#free{
+    margin-top: 1rem;
+   text-align: center;
+}
+/* #woman{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+} */
+#woman img{
+    height: 100px;
+    width: 100px;
+    border-radius: 300px;
+    margin-top: 1rem;
+}
+#footer{
+    display: flex;
+    gap: 2rem;
+   
+}
+#contact{
+    width: 60%;
+}
+#footer2{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+#section2{
+    background-color: #defaf8;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    #bedimages img{
+        width: 100%;
+        height: 30vh;  
+     }
+     #btn{
+        width: 10rem;
+       
+    }
+    #coachimages img{
+        width:90%;
+        height: 20vh;
+        
+    }
+    .middle{
+        display: block; 
+    }
+    .middleimages img{
+        margin-top: 1rem;
+        width: 15rem;
+    }
+    .middle2{
+        display: block;
+    }
+    #btn2{
+        width: 15rem;
+        margin-top: 0rem;
+    } 
+    .middle3{
+        display: block;
+        gap: 3rem;  
+        margin-left: 0rem;
+    } 
+    .middleimages1 img{
+        width: 15rem;
+        height: 40vh;
+    }
+    #footer{
+        display: block;
+        gap: 2rem; 
+    }
+    #nav-section #menu{ 
+        visibility: visible;
+        margin-top: 2rem;
+    
+    }
+    #homebar ul{
+        list-style: none;
+        display: block;
+        visibility: hidden;  
+    }
+
+
+    .middle3 p{
+        justify-content: left;
+    }
+
+}
